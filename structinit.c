@@ -1,14 +1,14 @@
-typedef struct
+typedef struct init
 {
     int x;
     int y;
     int z;
-}init, desiginit;
+}init_t, desiginit_t;
 
 int main(int argc, char const *argv[])
 {
-	init i = {1, 2, 3}; // initialization
-	desiginit di = 
+	init_t i = {1, 2, 3}; // initialization
+	desiginit_t di = 
 	{
 		.y = 2, 
 		.x = 1, 
