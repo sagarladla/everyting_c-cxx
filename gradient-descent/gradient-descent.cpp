@@ -1,7 +1,7 @@
 /**
  * @author	: Sagar Ladla
  * @program	: Batch Gradient Descent
- * @year	: Oct 20 2024
+ * @date	: Oct 20 2024
  * @ref		: https://github.com/sagarladla/mini-projects-archived/blob/main/Batch_Gradient_Descent/main.py
  * @writeup	: https://sagarladla.github.io/post/batch-gradient-descent/
  * */
@@ -88,7 +88,7 @@ std::pair<ld, ld> gradient_descent(ld c, ld m, std::vector< std::pair<ld, ld> > 
 	ld new_m = m;
 	ld x;
 	ld y;
-	for (size_t convergence = 0; convergence < epochs; ++convergence)
+	while (epochs--)
 	{
 		for (const std::pair<ld, ld> &point : dataset)
 		{
