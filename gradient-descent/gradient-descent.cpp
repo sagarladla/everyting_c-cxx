@@ -1,5 +1,5 @@
 /**
- * @author	: Sagar Ladla
+ * @author	: Sagarvarman Ladla
  * @program	: Batch Gradient Descent
  * @date	: Oct 20 2024
  * @ref		: https://github.com/sagarladla/mini-projects-archived/blob/main/Batch_Gradient_Descent/main.py
